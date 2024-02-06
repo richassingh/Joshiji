@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: #9ea1d4;
+}
+button{
+    position: absolute;
+    
+    width: 150px;
+    height: inherit;
+   font-size: 1.25em;
+    padding: 16px;
+    border-radius: 12px;
+    outline: none;
+    background-color: #809bce;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(245, 245, 245, .3);
+}
+button:nth-child(1){
+    margin-left: -200px;
+    background-color: #809bce;
+}
+button:nth-child(2){
+    margin-right: -200px;
+    background-color: #809bce;
+}
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+div{
+    display: flex;
+   justify-content: center;
+}
